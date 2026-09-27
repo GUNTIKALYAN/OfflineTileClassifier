@@ -1,0 +1,14 @@
+# CPU wheels. Avoids the multi-GB CUDA build from PyPI.
+# Install with: pip install -r requirements.txt
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+
+torch
+torchvision
+fastapi
+uvicorn
+python-multipart
+httpx
+pillow
+numpy
+scikit-learn

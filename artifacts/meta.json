@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "Highway",
+    "Industrial",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "image_size": 64,
+  "threshold": 0.55,
+  "preprocess": "rgb_div_255"
+}

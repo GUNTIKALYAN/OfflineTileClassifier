@@ -1,0 +1,15 @@
+venv/
+.venv/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+storage/tiles.db
+storage/tiles/*.png
+
+.env
+.DS_Store
+Thumbs.db
+
+plan/
