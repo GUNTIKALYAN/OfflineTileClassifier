@@ -18,7 +18,7 @@ if str(ROOT) not in sys.path:
 
 from app.model import IMAGE_SIZE, TileCNN, image_to_tensor  # noqa: E402
 
-DATA_DIR = ROOT / "be-mlsys-assignment-dataset" / "candidate_tiles"
+DATA_DIR = ROOT / "dataset" / "candidate_tiles"
 ARTIFACTS_DIR = ROOT / "artifacts"
 BATCH_SIZE = 32
 EPOCHS = 15

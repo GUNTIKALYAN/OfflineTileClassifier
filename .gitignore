@@ -8,6 +8,8 @@ __pycache__/
 storage/tiles.db
 storage/tiles/*.png
 
+*.pdf
+
 .env
 .DS_Store
 Thumbs.db

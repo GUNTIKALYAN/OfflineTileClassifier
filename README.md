@@ -35,4 +35,4 @@ uvicorn app.main:app --host 127.0.0.1 --port 8000
 python scripts/score_eval.py
 ```
 
-Scores `be-mlsys-assignment-dataset/eval_set` against `eval_labels.csv`. The API never imports or opens that CSV.
+Scores `dataset/eval_set` against `eval_labels.csv`. The API never imports or opens that CSV.

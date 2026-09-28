@@ -13,8 +13,8 @@ if str(ROOT) not in sys.path:
 
 from app.classifier import classifier  # noqa: E402
 
-EVAL_DIR = ROOT / "be-mlsys-assignment-dataset" / "eval_set"
-LABELS_CSV = ROOT / "be-mlsys-assignment-dataset" / "eval_labels.csv"
+EVAL_DIR = ROOT / "dataset" / "eval_set"
+LABELS_CSV = ROOT / "dataset" / "eval_labels.csv"
 
 
 def main() -> None:
